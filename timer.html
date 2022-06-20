@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Timer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styling.css">
+  </head>
+  <body>
+<img class="imgtimer" src="./images/327285097933353982(GIF).gif" alt="">
+<div class="div don">
+    <h1 class="min hour">00</h1>
+    <h1 class="seperator">:</h1>
+    <h1 class="sec mi">00</h1>
+    <h1 class="seperator">:</h1>
+    <h1 class="ms seconds">00</h1>
+</div>
+<div class="card-group">
+    <div class="card">
+      <div class="card-body h">
+        <h5 class="card-title">Hour</h5>
+        <input class="form-control" type="text" placeholder="Enter Hours" aria-label="default input example">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body m">
+        <h5 class="card-title">Minutes</h5>
+        <input class="form-control" type="text" placeholder="Enter Minutes" aria-label="default input example">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body s">
+        <h5 class="card-title">Seconds</h5>
+        <input class="form-control" type="text" placeholder="Enter Seconds" aria-label="default input example">
+      </div>
+    </div>
+    <button onclick="timer()" class="button-27 start timer" role="button">Start</button>
+  </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./timer.js"></script>
+  </body>
+</html>
